@@ -1,10 +1,10 @@
 <h1> Pealkiri </h1> 
 
-<div id>
+<div>
 Siin on üks rida.
 </div>
 
-<div id="vastus"></div>
+<div id="vastus" style="color: red"></div>
 
 <script>
 summa=0;
@@ -15,5 +15,5 @@ kordi=kordi+1;
 }
 document.getElementById("vastus").innerHTML = summa;
 //alert (kala+y);
-//kaldrkiipsud on kommentaatid
+//st. kaldrkiipsud on kommentaatid
 </script>
