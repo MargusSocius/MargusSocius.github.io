@@ -1,9 +1,10 @@
-
 div {
-  border: 10px solid black;
+  border: 0px solid black;
 }
 // kast ümber terve "tabeli", mida hetkel ei ole vaja seepärast =0
 
+table {
+  border-collapse: collapse;
 }
 
 table, th, td {
