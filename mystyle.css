@@ -12,13 +12,15 @@ table {
 // } 
 // so algne töötav variant
 
-table, th, td {
+table, td {
   border: 1px solid black;
+     <tr>
        <th>RegNr</th>
        <th>Firm</th>
        <th>Maks</th>
        <th>Töötaja</th>
        <th>Y&Q</th>
+    </tr>
 } 
 // so algne töötav variant MUUDATUSTEGA
 
