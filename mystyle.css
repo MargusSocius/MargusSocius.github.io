@@ -57,6 +57,11 @@ table, td {
 }
 
 th {
+  <th>Reg. kood</th>
+  <th>Ettevõte</th>
+  <th>Maksud</th>
+  <th>Töötajaid</th>
+  <th>Y&Q</th>
   text-align: left;
   height: 30px;
   line-height: 0;
