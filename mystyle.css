@@ -1,9 +1,6 @@
-table, th, td {
-  border: 1px solid black;
-}
 
 div {
-  border: double;
+  border: 1px solid black;
 }
 
 
