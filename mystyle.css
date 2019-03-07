@@ -22,6 +22,21 @@ th {
   white-space: nowrap;
   border-bottom-color: green;
   }
+// th muudab tabeli esimese rea kujundust. see võiks olla tabeli päis
+
+td {
+  text-align: left;
+  height: 30px;
+  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: blie;
+  border: 1px solid #000
+  white-space: nowrap;
+  border-bottom-color: green;
+  }
+// td muudab tabeli esimese rea kujundust. see võiks olla tabeli päis
+
 
 p {
   margin-top: 20px;
