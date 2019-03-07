@@ -18,6 +18,10 @@ table, th, td {
 }
 
 th {
+  <th>head1</th>
+  <th>head2</th>
+  <th>head3</th>
+  <th>head4</th>
   text-align: left;
   height: 30px;
   line-height: 0;
