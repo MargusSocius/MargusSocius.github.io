@@ -14,20 +14,20 @@ table {
 
 table, tr, th, td {
    border: 1px solid black;
-   <thead>
-      <tr>
+     <thead>
+       <tr>
          <th>Reg. kood</th>
          <th>Ettevõte</th>
          <th>Maksud</th>
          <th>Töötajaid</th>
          <th>Y&Q</th>
-      </tr>
-   </thead>
-   <tbody>
-     <tr>
-        th, td {
-        }
-    </tr>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         th, td {
+         }
+       </tr>
  
 //    <tr>
 //      <td>February</td>
