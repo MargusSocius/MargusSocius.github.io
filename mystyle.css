@@ -9,17 +9,19 @@ table {
 
 // table, th, td {
 //  border: 1px solid black;
-// }
+// } 
+// so algne töötav variant
 
 table, tr, th, td {
-   border: 1px solid red;
-}
-  
+   border: 1px solid black;
 // <thead>
-//    <tr>
-//      <th>Month</th>
-//      <th>Savings</th>
-//    </tr>
+      <tr>
+        <th>Reg. kood</th>
+        <th>Ettevõte</th>
+        <th>Maksud</th>
+        <th>Töötajaid</th>
+        <th>Y&Q</th>
+      </tr>
 //  </thead>
 //  <tbody>
 //    <tr>
@@ -38,8 +40,7 @@ table, tr, th, td {
 //    </tr>
 //  </tfoot>
 // </table>
-
-
+}
 
 th {
   text-align: left;
