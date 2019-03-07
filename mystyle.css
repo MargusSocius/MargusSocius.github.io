@@ -1,10 +1,4 @@
 div {
- style="height: 250px;">
-   <table border="1">
-     <th>head1</th>
-     <th>head2</th>
-     <th>head3</th>
-     <th>head4</th>
   border: 0px solid black;
 }
 // kast ümber terve "tabeli", mida hetkel ei ole vaja seepärast =0
@@ -18,10 +12,6 @@ table, th, td {
 }
 
 th {
-  <th>head1</th>
-  <th>head2</th>
-  <th>head3</th>
-  <th>head4</th>
   text-align: left;
   height: 30px;
   line-height: 0;
