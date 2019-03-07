@@ -9,3 +9,15 @@ div {
 table, th, td {
   border: 1px solid black;
 }
+
+th {
+  text-align: left;
+  height: 30px;
+  line-height: 20;
+  padding-top: 20;
+  padding-bottom: 20;
+  color: green;
+  border: 1px solid #000
+  white-space: nowrap;
+  border-bottom-color: green;
+  }
