@@ -1,3 +1,11 @@
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
 th {
   height: 30px;
   line-height: 0;
@@ -7,4 +15,11 @@ th {
   border: 1px solid #000
   white-space: nowrap;
   border-bottom-color: green;
+  }
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
   }
