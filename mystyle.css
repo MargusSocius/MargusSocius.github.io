@@ -2,6 +2,10 @@
 div {
   border: 0px solid black;
 }
+// kast ümber terve "tabeli", mida hetkel ei ole vaja seepärast =0
 
+}
 
-
+table, th, td {
+  border: 1px solid black;
+}
