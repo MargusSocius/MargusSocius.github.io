@@ -24,7 +24,7 @@ th {
   }
 // th muudab tabeli esimese rea kujundust. see võiks olla tabeli päis
 
-td {
+tr {
   text-align: left;
   height: 30px;
   line-height: 0;
