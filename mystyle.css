@@ -14,7 +14,7 @@ table {
 
 table, tr, th, td {
    border: 1px solid black;
-// <thead>
+   <thead>
       <tr>
         <th>Reg. kood</th>
         <th>Ettevõte</th>
@@ -22,7 +22,7 @@ table, tr, th, td {
         <th>Töötajaid</th>
         <th>Y&Q</th>
       </tr>
-//  </thead>
+    </thead>
 //  <tbody>
 //    <tr>
 //      <td>January</td>
