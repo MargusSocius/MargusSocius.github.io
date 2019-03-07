@@ -12,22 +12,32 @@ table {
 // } 
 // so algne töötav variant
 
-table, tr, th, td {
-   border: 1px solid black;
-     <thead>
-       <tr>
-         <th>Reg. kood</th>
-         <th>Ettevõte</th>
-         <th>Maksud</th>
-         <th>Töötajaid</th>
-         <th>Y&Q</th>
-       </tr>
-     </thead>
-     <tbody>
-       <tr>
-         td {
-         }
-       </tr>
+table, th, td {
+  border: 1px solid black;
+       <th>RegNr</th>
+       <th>Firm</th>
+       <th>Maks</th>
+       <th>Töötaja</th>
+       <th>Y&Q</th>
+} 
+// so algne töötav variant MUUDATUSTEGA
+
+// table, tr, th, td {
+//   border: 1px solid black;
+//     <thead>
+//       <tr>
+//         <th>Reg. kood</th>
+//         <th>Ettevõte</th>
+//         <th>Maksud</th>
+//         <th>Töötajaid</th>
+//         <th>Y&Q</th>
+//       </tr>
+//     </thead>
+//     <tbody>
+//       <tr>
+//         td {
+//         }
+//       </tr>
  
 //    <tr>
 //      <td>February</td>
