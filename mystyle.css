@@ -7,21 +7,21 @@ table {
   border-collapse: collapse;
 }
 
-// table, th, td {
-//  border: 1px solid black;
-// } 
-// so algne töötav variant
-
-table, td {
-  border: 1px solid black;
-     <tr>
-       <th>RegNr</th>
-       <th>Firm</th>
-       <th>Maks</th>
-       <th>Töötaja</th>
-       <th>Y&Q</th>
-    </tr>
+table, th, td {
+   border: 1px solid black;
 } 
+// so algne töötav variant//
+
+// table, td {
+//  border: 1px solid black;
+//     <tr>
+//       <th>RegNr</th>
+//       <th>Firm</th>
+//       <th>Maks</th>
+//       <th>Töötaja</th>
+//       <th>Y&Q</th>
+//    </tr>
+// } 
 // so algne töötav variant MUUDATUSTEGA
 
 // table, tr, th, td {
@@ -57,11 +57,6 @@ table, td {
 }
 
 th {
-  <th>Reg. kood</th>
-  <th>Ettevõte</th>
-  <th>Maksud</th>
-  <th>Töötajaid</th>
-  <th>Y&Q</th>
   text-align: left;
   height: 30px;
   line-height: 0;
