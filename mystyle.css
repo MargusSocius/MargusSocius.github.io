@@ -7,13 +7,14 @@ table {
   border-collapse: collapse;
 }
 
+// jatkub algne töötav variant//
 table, th, td {
    border: 1px solid black;
 } 
-// so algne töötav variant//
+// elnev oli algne töötav variant//
 
 // table, td {
-//  border: 1px solid black;
+//  border: 1px li lid black;
 //     <tr>
 //       <th>RegNr</th>
 //       <th>Firm</th>
