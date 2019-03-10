@@ -3,86 +3,57 @@ div {
 }
 // kast ümber terve "tabeli", mida hetkel ei ole vaja seepärast =0
 
+// table {
+//   border-collapse: collapse;
+// }
+
 table {
-  border-collapse: collapse;
+  border-collapse: solid;
+  table-layout: fixed;
+  width: 1000px;
+   <colgroup>
+    <col style="width:10%">
+    <col style="width:40%">
+    <col style="width:30%">
+    <col style="width:10%">
+    <col style="width:10%">
+  </colgroup>  
+
+//  with: 100¤%;
+//  style="with: 300px"
 }
 
-// jatkub algne töötav variant//
 table, th, td {
    border: 1px solid black;
 } 
-// elnev oli algne töötav variant//
 
-// table, td {
-//  border: 1px li lid black;
-//     <tr>
-//       <th>RegNr</th>
-//       <th>Firm</th>
-//       <th>Maks</th>
-//       <th>Töötaja</th>
-//       <th>Y&Q</th>
-//    </tr>
-// } 
-// so algne töötav variant MUUDATUSTEGA
-
-// table, tr, th, td {
-//   border: 1px solid black;
-//     <thead>
-//       <tr>
-//         <th>Reg. kood</th>
-//         <th>Ettevõte</th>
-//         <th>Maksud</th>
-//         <th>Töötajaid</th>
-//         <th>Y&Q</th>
-//       </tr>
-//     </thead>
-//     <tbody>
-//       <tr>
-//         td {
-//         }
-//       </tr>
- 
-//    <tr>
-//      <td>February</td>
-//      <td>$80</td>
-//    </tr>
-   </tbody>
-
-//   <tfoot>
-//    <tr>
-//      <td>Sum</td>
-//      <td>$180</td>
-//    </tr>
-//  </tfoot>
-</table>
-}
-
-th {
-  text-align: left;
-  height: 30px;
-  line-height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  color: red;
-  border: 1px solid #000
-  white-space: nowrap;
-  border-bottom-color: green;
-  }
+// th {
+//  text-align: left;
+//  height: 30px;
+//  line-height: 0;
+//  padding-top: 0;
+//  padding-bottom: 0;
+//  color: red;
+//  border: 1px solid #000
+//  white-space: nowrap;
+//  border-bottom-color: green;
+//  }
 // th muudab tabeli esimese rea kujundust. see võiks olla tabeli päis
 
 tr {
   text-align: left;
   height: 30px;
+  width: 20%;
   line-height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  color: blie;
+  padding: 80px 10px;
+//  padding-top: 0;
+//  padding-bottom: 0;
+  color: blue;
   border: 1px solid #000
   white-space: nowrap;
   border-bottom-color: green;
   }
 // td muudab tabeli esimese rea kujundust. see võiks olla tabeli päis
-
 
 p {
   margin-top: 20px;
@@ -90,3 +61,4 @@ p {
   margin-right: 0px;
   margin-left: 0px;
 }
+
